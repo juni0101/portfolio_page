@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오 페이지</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3cb34be75b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="nav" class="nav">
+      <ul class="nav-menu">
+        <li><a href="#one" class="nav-menu-foused">Home</a></li>
+        <li><a href="#two">Profile</a></li>
+        <li><a href="#three">Work</a></li>
+        <li><a href="#four">Contact</a></li>
+        <div class="marker"></div>
+      </ul>
+    </nav>
+    <div class="wrap">
+      <section id="one">
+        <span>W</span>
+        <span>e</span>
+        <span>b</span><br />
+        <span>P</span>
+        <span>u</span>
+        <span>b</span>
+        <span>l</span>
+        <span>i</span>
+        <span>s</span>
+        <span>h</span>
+        <span>e</span>
+        <span>r</span>
+        <p id="one-text">밝고 긍정적인 자세로 임하는 웹퍼블리셔</p>
+        <div class="scroll">
+          <p>SCROLL DOWN</p>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+      <!-- sec1 -->
+
+      <section id="two">
+        <h2>Profile</h2>
+        <div class="sec2-wrap sec-wrap">
+          <div class="sec2-left">
+            <figure>
+              <img src="img/profile.png" alt="내사진" />
+            </figure>
+            <p class="greeting">
+              안녕하세요<br />신입 웹퍼블리셔<br />
+              강주은 입니다.
+            </p>
+            <p class="profile__introduction">
+              "밝고 긍정적인 마인드" <br />어느 분야에서나 밝고 긍정적인 자세로
+              <br />임하는것이 중요하다고 생각합니다. <br />도전, 배움, 협업에서
+              항상 긍정적으로 받아들이고 <br />성장하는 웹퍼블리셔가 되겠습니다.
+            </p>
+          </div>
+          <!-- sec2-left -->
+          <div class="sec2-right">
+            <div class="info">
+              <h5>INFO</h5>
+              <ul>
+                <li>
+                  <p>Name</p>
+                  <p>강주은</p>
+                </li>
+                <li>
+                  <p>Birth</p>
+                  <p>2001.01.12</p>
+                </li>
+                <li>
+                  <p>Phone</p>
+                  <p>010-2506-3146</p>
+                </li>
+                <li>
+                  <p>Mail</p>
+                  <p>jupia3346@naver.com</p>
+                </li>
+              </ul>
+            </div>
+            <div class="Education">
+              <h5>EDUCATION</h5>
+              <ul>
+                <li>
+                  <p>2023</p>
+                  <p>그린컴퓨터아트학원 웹개발자과정 수료</p>
+                </li>
+                <li>
+                  <p>2023</p>
+                  <p>안산대학교 유아교육과 졸업</p>
+                </li>
+                <li>
+                  <p>2020</p>
+                  <p>성포고등학교 졸업</p>
+                </li>
+              </ul>
+            </div>
+            <div class="Skill">
+              <h5>SKILL</h5>
+              <ul>
+                <li><img src="img/html_icon.png" alt="html_icon.png" /></li>
+                <li><img src="img/css_icon.png" alt="css_icon.png" /></li>
+                <li><img src="img/js.png" alt="js.png" /></li>
+                <li><img src="img/jquery.png" alt="jquery.png" /></li>
+                <li><img src="img/sass_icon.png" alt="" /></li>
+                <li><img src="img/ps_icon.png" alt="" /></li>
+                <li><img src="img/figma_icon.png" alt="" /></li>
+                <li><img src="img/github_icon.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+          <!-- sec2-right -->
+        </div>
+        <!-- sec2-wrap -->
+      </section>
+
+      <section id="three">
+        <h2>Work</h2>
+        <div class="sec-wrap">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="slider-item swiper-slide">
+                <div class="slider-image-wrapper">
+                  <p class="desk-shot">
+                    <img
+                      class="slider-image desk"
+                      src="img/mockup_desktop.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work"
+                      src="img/work-1.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-image-wrapper mobile-wrap">
+                  <p class="mobile-shot">
+                    <img
+                      class="slider-image mobile"
+                      src="img/moible.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work-mobile"
+                      src="img/mobile2.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-item-content">
+                  <h1>Momentum 클론</h1>
+                  <p class="sec3-content-info">
+                    실시간 위치,날씨를 확인하고 투두리스트 작성하기
+                  </p>
+                  <ul>
+                    <li>
+                      <p>TOOL</p>
+                      <p>HTML, CSS, JS, FIGMA</p>
+                    </li>
+                    <li>
+                      <p>FUNCTION</p>
+                      <p>투두리스트, 실시간 날씨, 시계, 반응형</p>
+                    </li>
+                    <li>
+                      <p>PROCESS</p>
+                      <p>날씨API, 클릭이벤트</p>
+                    </li>
+                    <li>
+                      <p>참여도</p>
+                      <p>100%(개인작업)</p>
+                    </li>
+                  </ul>
+                  <div class="sec3-link-wrap">
+                    <a
+                      href="https://juni0101.github.io/moment-clone/"
+                      target="_blank"
+                      >Website
+                    </a>
+                    <a
+                      href="https://github.com/juni0101/moment-clone"
+                      target="_blank"
+                    >
+                      <img src="img/github_icon.png" alt="" />Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item swiper-slide">
+                <div class="slider-image-wrapper">
+                  <p class="desk-shot">
+                    <img
+                      class="slider-image desk"
+                      src="img/mockup_desktop.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work"
+                      src="img/work-1.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-image-wrapper mobile-wrap">
+                  <p class="mobile-shot">
+                    <img
+                      class="slider-image mobile"
+                      src="img/moible.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work-mobile"
+                      src="img/mobile2.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-item-content">
+                  <h1>메가박스 사이트 리뉴얼</h1>
+                  <p class="sec3-content-info">영화구매 및 추천사이트</p>
+                  <ul>
+                    <li>
+                      <p>TOOL</p>
+                      <p>HTML, CSS, JS, FIGMA</p>
+                    </li>
+                    <li>
+                      <p>FUNCTION</p>
+                      <p>투두리스트, 실시간 날씨, 시계, 반응형</p>
+                    </li>
+                    <li>
+                      <p>PROCESS</p>
+                      <p>날씨API, 클릭이벤트</p>
+                    </li>
+                    <li>
+                      <p>참여도</p>
+                      <p>100%(개인작업)</p>
+                    </li>
+                  </ul>
+                  <div class="sec3-link-wrap">
+                    <a
+                      href="https://juni0101.github.io/moment-clone/"
+                      target="_blank"
+                      >Website
+                    </a>
+                    <a
+                      href="https://github.com/juni0101/moment-clone"
+                      target="_blank"
+                    >
+                      <img src="img/github_icon.png" alt="" />Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item swiper-slide">
+                <div class="slider-image-wrapper">
+                  <p class="desk-shot">
+                    <img
+                      class="slider-image desk"
+                      src="img/mockup_desktop.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work"
+                      src="img/work-1.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-image-wrapper mobile-wrap">
+                  <p class="mobile-shot">
+                    <img
+                      class="slider-image mobile"
+                      src="img/moible.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work-mobile"
+                      src="img/mobile2.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-item-content">
+                  <h1>Momentum 클론</h1>
+                  <p class="sec3-content-info">
+                    실시간 위치,날씨를 확인하고 투두리스트 작성하기
+                  </p>
+                  <ul>
+                    <li>
+                      <p>TOOL</p>
+                      <p>HTML, CSS, JS, FIGMA</p>
+                    </li>
+                    <li>
+                      <p>FUNCTION</p>
+                      <p>투두리스트, 실시간 날씨, 시계, 반응형</p>
+                    </li>
+                    <li>
+                      <p>PROCESS</p>
+                      <p>날씨API, 클릭이벤트</p>
+                    </li>
+                    <li>
+                      <p>참여도</p>
+                      <p>100%(개인작업)</p>
+                    </li>
+                  </ul>
+                  <div class="sec3-link-wrap">
+                    <a
+                      href="https://juni0101.github.io/moment-clone/"
+                      target="_blank"
+                      >Website
+                    </a>
+                    <a
+                      href="https://github.com/juni0101/moment-clone"
+                      target="_blank"
+                    >
+                      <img src="img/github_icon.png" alt="" />Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item swiper-slide">
+                <div class="slider-image-wrapper">
+                  <p class="desk-shot">
+                    <img
+                      class="slider-image desk"
+                      src="img/mockup_desktop.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work"
+                      src="img/work-1.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-image-wrapper mobile-wrap">
+                  <p class="mobile-shot">
+                    <img
+                      class="slider-image mobile"
+                      src="img/moible.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="screenshot">
+                    <img
+                      class="slider-image work-mobile"
+                      src="img/mobile2.png"
+                      alt="SliderImg"
+                    />
+                  </p>
+                </div>
+                <div class="slider-item-content">
+                  <h1>Momentum 클론</h1>
+                  <p class="sec3-content-info">
+                    실시간 위치,날씨를 확인하고 투두리스트 작성하기
+                  </p>
+                  <ul>
+                    <li>
+                      <p>TOOL</p>
+                      <p>HTML, CSS, JS, FIGMA</p>
+                    </li>
+                    <li>
+                      <p>FUNCTION</p>
+                      <p>투두리스트, 실시간 날씨, 시계, 반응형</p>
+                    </li>
+                    <li>
+                      <p>PROCESS</p>
+                      <p>날씨API, 클릭이벤트</p>
+                    </li>
+                    <li>
+                      <p>참여도</p>
+                      <p>100%(개인작업)</p>
+                    </li>
+                  </ul>
+                  <div class="sec3-link-wrap">
+                    <a
+                      href="https://juni0101.github.io/moment-clone/"
+                      target="_blank"
+                      >Website
+                    </a>
+                    <a
+                      href="https://github.com/juni0101/moment-clone"
+                      target="_blank"
+                    >
+                      <img src="img/github_icon.png" alt="" />Github
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-buttons">
+              <button class="swiper-button-prev"></button>
+              <button class="swiper-button-next"></button>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="four">
+        <h2>Contact</h2>
+        <div class="sec4-text">
+          <p>기억에 남을 수 있는 인재, 기대할 수 있는 인재입니다</p>
+          <p>언제든지 연락주세요!</p>
+        </div>
+        <ul>
+          <li>
+            <a href="tel:01025063146">
+              <div class="sec-wrap contact-wrap">
+                <img src="img/phone_icon.png" alt="" />
+                <h6>Phone</h6>
+                <p>010-2506-3146</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:jupia3346@naver.com">
+              <div class="sec-wrap contact-wrap">
+                <img src="img/mail.png" alt="" />
+                <h6>Mail</h6>
+                <p>jupia3346@naver.com</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/juni0101" target="_blank">
+              <div class="sec-wrap contact-wrap">
+                <i class="fa-brands fa-github"></i>
+                <h6>Github</h6>
+                <p>
+                  https://github.com<br />
+                  /juni0101
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>
+        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+      </p>
+      <p>Copyright ⓒ 2024. kANG JUEUN All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
