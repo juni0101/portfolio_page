@@ -1,0 +1,128 @@
+/* mobile */
+@media screen and (max-width: 767px) {
+  /* nav */
+  #nav .nav-menu {
+    flex-direction: column;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.903);
+    width: 100%;
+    display: none;
+  }
+  .nav #bar {
+    display: block;
+  }
+  .marker {
+    display: none;
+  }
+  #nav i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2.8rem;
+    color: #4b4b4b;
+    cursor: pointer;
+  }
+  /* sec1 */
+  #one span {
+    font-size: 7rem;
+  }
+  /* sec2 */
+  #two {
+    width: 85%;
+    margin: 0 auto;
+    height: 250vh;
+  }
+  .sec2-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* sec3 */
+  #three {
+    height: 185vh;
+    width: 85%;
+    margin: 0 auto;
+  }
+  #three .sec-wrap {
+    height: 145vh;
+  }
+  .slider-image {
+    height: 39%;
+  }
+  .desk {
+    left: 64px;
+  }
+  .work {
+    width: 55%;
+    height: 297px;
+    position: relative;
+    top: -5px;
+    left: 67px;
+  }
+  .mobile {
+    top: 174px;
+    right: 312px;
+    width: 130px;
+    height: auto;
+  }
+  .work-mobile {
+    height: 23.5%;
+    width: 13%;
+    right: 318px;
+    top: 182px;
+  }
+  .desk-shot::after {
+    top: 40%;
+    left: 11%;
+  }
+  .screenshot::after {
+    left: 50%;
+    top: 46%;
+    width: 145px;
+  }
+  .slider-item-content {
+    width: 70%;
+  }
+  .slider-item-content .sec3-link-wrap {
+    right: 46%;
+    bottom: 0%;
+  }
+  /* sec4 */
+  #four {
+    height: 95vh;
+  }
+  #four ul {
+    padding: 20px;
+  }
+  #four ul li a .contact-wrap {
+    padding: 20px;
+  }
+  #four ul li:nth-of-type(1) a div img {
+    width: 6rem;
+  }
+  #four ul li:nth-of-type(2) a div img {
+    width: 5rem;
+  }
+  #four ul li:nth-of-type(3) a div i {
+    font-size: 5rem;
+  }
+  #four h6 {
+    font-size: 1.6rem;
+  }
+  #four p {
+    font-size: 1rem;
+  }
+  #four ul li:nth-of-type(1) div {
+    padding: 20px 52px;
+  }
+  #four ul li:nth-of-type(2) div {
+    padding: 12px 69px;
+  }
+  #four ul li:nth-of-type(3) div {
+    padding: 15px 42px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .nav #bar {
+    display: none;
+  }
+}

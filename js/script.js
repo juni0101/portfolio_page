@@ -53,6 +53,7 @@ var swiper = new Swiper(".swiper-container", {
   loop: true,
   speed: 800,
   mousewheel: {
+    enabled: false,
     invert: false,
   },
   pagination: {
@@ -65,4 +66,20 @@ var swiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+
+// mobile - 메뉴바
+const bar = document.querySelector("#bar");
+const x = document.querySelector("#x");
+const navMenu = document.querySelector(".nav-menu");
+
+bar.addEventListener("click", () => {
+  bar.style.display = "none";
+  x.style.display = "block";
+  navMenu.style.display = "block";
+});
+x.addEventListener("click", () => {
+  x.style.display = "none";
+  bar.style.display = "block";
+  navMenu.style.display = "none";
 });

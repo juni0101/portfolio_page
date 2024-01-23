@@ -57,7 +57,9 @@ section {
   transition: 0.5s;
   font-size: 20px;
 }
-
+.nav #bar {
+  display: none;
+}
 .nav_fixed {
   height: 5rem;
   padding: 0;
@@ -92,7 +94,15 @@ section {
   background-color: purple;
   transition: 0.5s;
 }
-
+#x {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.block {
+  display: block;
+}
 /* sec1 */
 #one {
   padding-top: 250px;
@@ -465,62 +475,6 @@ section {
   transform: translateY(0px);
   opacity: 1;
 }
-.slider-image {
-  height: 53%;
-  object-fit: cover;
-  transition: 0.2s;
-}
-.desk-shot::after {
-  content: "";
-  width: 461px;
-  height: 35px;
-  background: linear-gradient(0deg, #00000033 1%, #80808026, transparent 96%);
-  position: absolute;
-  left: 14%;
-  top: 55%;
-  border-radius: 35%;
-  filter: blur(7px);
-  z-index: 999;
-}
-.desk {
-  position: absolute;
-  z-index: 99;
-  top: 37px;
-  left: -1px;
-}
-.screenshot::after {
-  content: "";
-  width: 170px;
-  height: 15px;
-  background: linear-gradient(360deg, #00000030 1%, transparent 72%);
-  position: absolute;
-  left: 75%;
-  top: 60%;
-  border-radius: 18%;
-  filter: blur(8px);
-  z-index: 999;
-}
-
-.mobile {
-  position: absolute;
-  z-index: 100;
-  top: 220px;
-  right: 57px;
-  width: 167px;
-  height: auto;
-}
-.work {
-  width: 78%;
-  height: 434px;
-}
-.work-mobile {
-  width: 17%;
-  height: 30%;
-  position: absolute;
-  right: 63px;
-  top: 229px;
-  z-index: 99;
-}
 .swiper-pagination {
   position: absolute;
   left: 50%;
@@ -580,6 +534,63 @@ section {
   .swiper-button-prev:hover:before {
     display: none;
   }
+}
+/* sec3- slide image */
+.slider-image {
+  height: 50%;
+  object-fit: cover;
+  transition: 0.2s;
+}
+.desk-shot::after {
+  content: "";
+  width: 461px;
+  height: 35px;
+  background: linear-gradient(0deg, #00000033 1%, #80808026, transparent 96%);
+  position: absolute;
+  left: 14%;
+  top: 55%;
+  border-radius: 35%;
+  filter: blur(7px);
+  z-index: 999;
+}
+.desk {
+  position: absolute;
+  z-index: 99;
+  top: 37px;
+  left: -1px;
+}
+.screenshot::after {
+  content: "";
+  width: 170px;
+  height: 15px;
+  background: linear-gradient(360deg, #00000030 1%, transparent 72%);
+  position: absolute;
+  left: 75%;
+  top: 60%;
+  border-radius: 18%;
+  filter: blur(8px);
+  z-index: 999;
+}
+
+.mobile {
+  position: absolute;
+  z-index: 100;
+  top: 220px;
+  right: 57px;
+  width: 167px;
+  height: auto;
+}
+.work {
+  width: 78%;
+  height: 434px;
+}
+.work-mobile {
+  width: 17%;
+  height: 28%;
+  position: absolute;
+  right: 63px;
+  top: 229px;
+  z-index: 99;
 }
 /* sec3 - content */
 .slider-item-content h1 {
@@ -691,7 +702,7 @@ section {
   padding: 63px 103px;
 }
 #four ul li:nth-of-type(2) div {
-  padding: 71px 65px;
+  padding: 57px 123px;
 }
 #four ul li:nth-of-type(3) a div i {
   font-size: 7rem;
