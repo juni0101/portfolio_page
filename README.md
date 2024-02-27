@@ -20,7 +20,10 @@ javascript를 이용하여 만든 포트폴리오 반응형 사이트 입니다.
 성장하는 웹퍼블리셔가 되겠습니다.
 💌메일 : jupia3346@naver.com 
 
-## 사용기술 
+ ## 환경
+ vs코드, 깃허브 
+
+ ## 개발  
 HTML/CSS, Javascript, Figma
 
 ## ⚙주요기능
@@ -34,6 +37,8 @@ HTML/CSS, Javascript, Figma
 
 **반응형 페이지** <br>
 - 모바일 반응형 페이지를 제작하였습니다.
+
+
 
 
 ## PC화면
