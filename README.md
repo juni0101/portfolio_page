@@ -22,11 +22,14 @@ javascript를 이용하여 만든 포트폴리오 반응형 사이트 입니다.
 <br>
 
 ## 🔧스택 
-**환경** <br>
- vs코드, 깃허브 
+### 환경 <br>
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)         
 
-**개발** <br>
-HTML/CSS, Javascript, Figma 
+### 개발 <br>
+![Css](https://img.shields.io/badge/Css-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white), 
+figma
 
 
 ## ⚙주요기능
