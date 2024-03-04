@@ -36,6 +36,18 @@
     flex-direction: column;
     align-items: center;
   }
+  .sec2-wrap .sec2-left {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2-left .greeting,
+  .sec2-left .profile__introduction {
+    padding-left: 0px;
+  }
+  .sec2-wrap .sec2-right {
+    display: flex;
+    flex-direction: column;
+  }
   /* sec3 */
   #three {
     height: 185vh;
@@ -45,14 +57,21 @@
   #three .sec-wrap {
     height: 145vh;
   }
+  .swiper-container {
+    position: relative;
+    left: -20px;
+  }
+  .slider-image-wrapper {
+    width: 70%;
+  }
   .slider-image {
-    height: 39%;
+    height: 35%;
   }
   .desk {
     left: 64px;
   }
   .work {
-    width: 55%;
+    width: 78%;
     height: 297px;
     position: relative;
     top: -5px;
@@ -65,7 +84,7 @@
     height: auto;
   }
   .work-mobile {
-    height: 23.5%;
+    height: 21.5%;
     width: 13%;
     right: 318px;
     top: 182px;
@@ -119,10 +138,5 @@
   }
   #four ul li:nth-of-type(3) div {
     padding: 15px 42px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .nav #bar {
-    display: none;
   }
 }

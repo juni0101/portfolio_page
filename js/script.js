@@ -83,3 +83,16 @@ x.addEventListener("click", () => {
   bar.style.display = "block";
   navMenu.style.display = "none";
 });
+
+// 윈도우 크기 변경감지
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 767) {
+    navMenu.style.display = "flex";
+    bar.style.display = "none";
+    x.style.display = "none";
+  } else {
+    navMenu.style.display = "none";
+    bar.style.display = "block";
+  }
+});
+
